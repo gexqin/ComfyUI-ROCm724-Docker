@@ -4,7 +4,7 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/corundex/comfyui-rocm)](https://hub.docker.com/r/corundex/comfyui-rocm) [![ROCm](https://img.shields.io/badge/ROCm-7.2+-green)](https://rocm.docs.amd.com/) [![AMD GPU](https://img.shields.io/badge/AMD-AIMAX+%20395-red)](https://www.amd.com/en/products/graphics/desktops/radeon.html)
 
-🔥🔥🔥 Any questions can be raised here[(https://github.com/gexqin/ComfyUI-ROCm72-Docker/issues)](https://github.com/gexqin/ComfyUI-ROCm72-Docker/issues) ] replies irregularly depending on mood🔥🔥🔥
+🔥🔥🔥 Any questions can be raised here [ (https://github.com/gexqin/ComfyUI-ROCm72-Docker/issues)(https://github.com/gexqin/ComfyUI-ROCm72-Docker/issues) ] replies irregularly depending on mood🔥🔥🔥
 
 ![ComfyUI Interface](screenshot.png)
 *ComfyUI running on AMD ROCm with sample workflow and generated landscape image*
