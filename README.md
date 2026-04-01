@@ -34,7 +34,7 @@
 services:
   comfyui-rocm:
     image: qinzhen/comfyui-rocm72:latest 
-    container_name: comfyui-rocm
+    container_name: comfyui-rocm72
     runtime: runc
     devices:
       - /dev/kfd:/dev/kfd
