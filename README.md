@@ -11,7 +11,7 @@
 
 ## 📋 Version Information
 
-- **Base Image**: `custom-made`
+- **Base Image**: rocm/pytorch:rocm7.2.1_ubuntu24.04_py3.12_pytorch_release_2.9.1
 - **Python**: 3.12.3
 - **PyTorch**: 2.12.0.dev20260328+rocm7.2
 - **ROCm**: 7.2.1
@@ -70,7 +70,7 @@ ComfyUI 0.18.1 listen on: **http://0.0.0.0:8188**
 | **VRAM**   | 8GB minimum (16GB+ recommended)            |
 | **OS**     | Linux (Ubuntu 24.04+ recommended)          |
 | **Docker** | Latest official version (29.1.4)           |
-| **Pytorch**| Version 2.12.0.dev20260328+rocm7.2        |
+| **Pytorch**| Version 2.9.1+rocm7.2.1.gitff65f5bc        |
 | **ROCm**   | Drivers 7.2.1+ installed on host           |
 
 ## 🔧 Setup Instructions
