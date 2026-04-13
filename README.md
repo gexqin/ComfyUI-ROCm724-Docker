@@ -6,6 +6,8 @@
 
 🔥🔥🔥 Any questions can be raised here [ (https://github.com/gexqin/ComfyUI-ROCm72-Docker/issues) ] replies irregularly depending on mood🔥🔥🔥
 
+🔥🔥🔥Please ensure that the ROCm version on the host machine is consistent with the ROCm version in this image.🔥🔥🔥
+
 ![ComfyUI Interface](screenshot.png)
 *ComfyUI running on AMD ROCm with sample workflow and generated landscape image*
 
