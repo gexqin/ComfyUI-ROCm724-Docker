@@ -164,7 +164,6 @@ docker logs -f comfyui-rocm
 
 | Hardware | Memory split | Status |
 | --- | --- | --- |
-| AMD AI MAX+ 395 | 96 GB / 32 GB | ✅ Tested |
 | AMD AI MAX+ 395 | 64 GB / 64 GB | ✅ Tested |
 
 ### Tested Templates
