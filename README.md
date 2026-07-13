@@ -222,7 +222,7 @@ Use the value that matches your GPU architecture.
 ### View container logs
 
 ```bash
-docker logs -f comfyui-rocm
+docker logs -f comfyui-rocm724
 ```
 
 ## 📄 License & Credits
