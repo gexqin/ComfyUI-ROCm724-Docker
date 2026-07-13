@@ -43,7 +43,7 @@ Create a `docker-compose.yaml` file:
 ```yaml
 services:
   comfyui-rocm:
-    image: qinzhen/comfyui-rocm:0.27.0
+    image: qinzhen/comfyui-rocm724
     container_name: comfyui-rocm
     runtime: runc
     devices:
