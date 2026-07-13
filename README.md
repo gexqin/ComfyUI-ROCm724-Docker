@@ -44,7 +44,7 @@ Create a `docker-compose.yaml` file:
 services:
   comfyui-rocm:
     image: qinzhen/comfyui-rocm724
-    container_name: comfyui-rocm
+    container_name: comfyui-rocm724
     runtime: runc
     devices:
       - /dev/kfd:/dev/kfd
@@ -60,7 +60,9 @@ services:
       - ./data/custom_nodes:/workspace/ComfyUI/custom_nodes
       - ./data/user:/workspace/ComfyUI/user
     environment:
-      - MODEL_DOWNLOAD=default
+      # - MODEL_DOWNLOAD=default
+      - HSA_DISABLE_FRAGMENT_ALLOCATOR=1
+      - PYTORCH_NO_HIP_MEMORY_CACHING=1
       - TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1
       - TORCH_CUDNN_ENABLED=0
       - HIP_LAUNCH_BLOCKING=1
