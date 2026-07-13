@@ -10,7 +10,7 @@
 > [!IMPORTANT]
 > The ROCm version installed on the host machine must be compatible with the ROCm version inside this image. This image is built for **ROCm 7.2.4**.
 
-For questions or issues, please open an issue here: <https://github.com/gexqin/ComfyUI-ROCm/issues>
+For questions or issues, please open an issue here: <https://github.com/gexqin/ComfyUI-ROCm724-Docker/issues>
 
 ![ComfyUI Interface](screenshot.png)
 
