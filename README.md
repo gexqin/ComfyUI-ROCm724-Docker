@@ -1,4 +1,4 @@
-# ComfyUI ROCm Docker Image
+# ComfyUI-0.27.0 ROCm7.2.4 Docker Image
 
 🔥 **ComfyUI with AMD ROCm support** - run ComfyUI on AMD GPUs with ROCm-optimized dependencies.
 
