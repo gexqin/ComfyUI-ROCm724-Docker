@@ -1,4 +1,5 @@
 # ComfyUI-0.27.0 ROCm7.2.4 Docker Image
+🔥 **Warning: Do not upgrade the Linux kernel to a version higher than 6.17.0-29.**
 
 🔥 **ComfyUI with AMD ROCm support** - run ComfyUI on AMD GPUs with ROCm-optimized dependencies.
 
