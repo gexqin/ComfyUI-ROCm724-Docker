@@ -34,8 +34,8 @@ For questions or issues, please open an issue here: <https://github.com/gexqin/C
 | Python | 3.12.3 |
 | PyTorch | 2.9.1 |
 | ROCm | 7.2.4 |
-| ComfyUI | v0.27.0 |
-| Ubuntu | 24.04 |
+| ComfyUI | v0.28.0 |
+| Ubuntu | 24.04 6.17.0-1030-oem|
 
 ## ✨ Key Features
 
