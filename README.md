@@ -1,4 +1,4 @@
-# ComfyUI-0.27.0 ROCm7.2.4 Docker Image
+# ComfyUI-0.28.0 ROCm7.2.4 Docker Image
 🔥 Warning: The Linux kernel must be oem kernel. 6.17.0-1030-oem tested, using the DKMS built into the OEM kernel. 
 
 Example: How to Install the OEM Kernel and Use Built-in DKMS
