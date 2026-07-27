@@ -50,10 +50,22 @@ services:
     devices:
       - /dev/kfd:/dev/kfd
       - /dev/dri:/dev/dri
-    group_add:
-      - video
+    
     ports:
       - "8188:8188"
+    
+    group_add:
+      #- video
+      #- render
+      - 993
+      - 44
+
+    ipc: host
+    shm_size: "16gb"      
+
+    security_opt:
+      - seccomp=unconfined
+
     volumes:
       - ./data/models:/workspace/ComfyUI/models
       - ./data/output:/workspace/ComfyUI/output
@@ -61,14 +73,13 @@ services:
       - ./data/custom_nodes:/workspace/ComfyUI/custom_nodes
       - ./data/user:/workspace/ComfyUI/user
     environment:
-      # - MODEL_DOWNLOAD=default
-      - HSA_DISABLE_FRAGMENT_ALLOCATOR=1
+      - MODEL_DOWNLOAD=default
+      - HSA_ENABLE_SDMA=0
+      - GPU_MAX_HW_QUEUES=1
       - PYTORCH_NO_HIP_MEMORY_CACHING=1
-      - TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1
       - TORCH_CUDNN_ENABLED=0
       - HIP_LAUNCH_BLOCKING=1
       - TORCH_SHOW_CPP_STACKTRACES=1
-      - HSA_OVERRIDE_GFX_VERSION=11.5.1
     restart: unless-stopped
 ```
 
